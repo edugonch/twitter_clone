@@ -38,6 +38,9 @@ gem "jquery-rails"
 
 gem "devise"
 
+gem 'will_paginate', '~> 3.0.6'
+gem "will_paginate-bootstrap"
+
 gem "factory_girl_rails"
 
 group :test do

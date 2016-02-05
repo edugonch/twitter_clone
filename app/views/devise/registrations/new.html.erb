@@ -2,6 +2,10 @@
   <h2 class="form-signin-heading">Please sign up</h2>
   <%= f.label :email, class: "sr-only" %><br />
   <%= f.email_field :email, autofocus: true, class:"form-control", placeholder:"Email address"  %>
+  <%= f.label :name, class: "sr-only" %><br />
+  <%= f.text_field :name, autofocus: true, class:"form-control", placeholder:"Name"  %>
+  <%= f.label :last_name, class: "sr-only" %><br />
+  <%= f.text_field :last_name, autofocus: true, class:"form-control", placeholder:"Last Name"  %>
   <%= f.label :password, class: "sr-only" %><br />
   <%= f.password_field :password, autocomplete: "off", class:"form-control", placeholder:"Password"  %>
   <% if @minimum_password_length %>
